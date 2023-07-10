@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+/* global style  */
+.btn-primary{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 43px;
+    border-radius: 8px;
+    background: #E55473;
+    border: 1px solid #E55473;
+    cursor: pointer;
+}
+
+/* header section  */
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(212, 7, 55, 0.1);
+    padding-left: 150px;
+    padding-right: 150px;
+    height: 100vh;
+
+}
+.header-left{
+    flex-basis: 60%;
+}
+.header-right{
+    flex-basis: 40%;
+    margin-left: 70px;
+    align-self: flex-end;
+    position: relative;
+}
+.header-right img{
+    width: 480px;
+    position: absolute;
+    bottom: 0;
+
+}
+.header-left h1{
+    color: #272727;
+    font-size: 60px;
+    font-weight: 800;
+}
+.header-left p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 30px;
+}
+.shop-btn{
+    margin-top: 30px;
+    transition: .3s;
+}
+.shop-btn:hover{
+    background: #fff;
+    color: #E55473;
+
+}
