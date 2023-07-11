@@ -269,3 +269,37 @@
 .instagram-bottom input[type="submit"]:hover {
   color: #e4dcdc;
 }
+
+/* footer section  */
+
+#footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #111010;
+  padding: 120px;
+}
+#footer h2 {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 800;
+}
+#footer h2 span{
+  color: #e55473;
+}
+#footer p {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 55%;
+  text-align: center;
+  margin-top: 24px;
+}
+#footer .copyright {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 32px;
+}
