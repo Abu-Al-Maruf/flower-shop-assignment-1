@@ -118,7 +118,7 @@
   font-size: 20px;
   font-weight: 700;
   margin-top: 30px;
-  transition: .3s;
+  transition: 0.3s;
 }
 .flower-box a:hover {
   color: #413e3ec4;
@@ -137,15 +137,55 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
-.bottom-box img{
-   width:70px;
+.bottom-box img {
+  width: 70px;
 }
-.bottom-box span{
-  color: rgba(39, 39, 39, 0.80);
+.bottom-box span {
+  color: rgba(39, 39, 39, 0.8);
   font-size: 20px;
   font-weight: 600;
   line-height: 35px;
   margin-top: 24px;
-  }
+}
+
+/* discount section  */
+
+#discount {
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 100px 160px;
+}
+.discount-left {
+  text-align: center;
+  width: 50%;
+}
+.discount-left h2 {
+  color: #272727;
+  font-size: 38px;
+  font-weight: 800;
+}
+.discount-left h2 span{
+  color: #E55473;
+}
+.discount-left p{
+  color: rgba(39, 39, 39, 0.60);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 24px;
+}
+.discount-left .btn-primary{
+  margin-top: 32px;
+  transition: .3s;
+}
+.discount-left .btn-primary:hover {
+  background: #fff;
+  color: #e55473;
+}
+.discount-right img{
+  width: 315px;
+}
