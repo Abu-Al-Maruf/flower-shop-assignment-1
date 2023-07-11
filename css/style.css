@@ -30,7 +30,7 @@
   position: relative;
 }
 .header-left {
-  flex-basis: 60%;
+  flex-basis: 50%;
 }
 .header-right {
   flex-basis: 40%;
